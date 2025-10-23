@@ -3,8 +3,8 @@ import time
 import requests
 import telebot
 
-TOKEN = os.getenv(8478687425:AAEN3a1T1961ZVrkcikH8GRbbJcCU0ycHHo)
-CHAT_ID = os.getenv(111310449)
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 INTERVAL = int(os.getenv("CHECK_INTERVAL", 30))
 
 bot = telebot.TeleBot(TOKEN)
